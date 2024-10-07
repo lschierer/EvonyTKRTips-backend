@@ -1,0 +1,25 @@
+{
+  "name": "-t",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "bun run ./dist/index.js"
+  },
+  "devDependencies": {
+    "@hono/vite-build": "^1.1.0",
+    "@hono/vite-dev-server": "^0.16.0",
+    "@types/node": "^22.7.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.1",
+    "arktype": "^2.0.0-rc.15",
+    "cross-env": "^7.0.3",
+    "hono": "^4.6.3"
+  }
+}
